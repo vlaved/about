@@ -63,7 +63,7 @@ section { padding:70px 0; }
 /* Pluses
 ----------------------- */
 .pluses { padding:100px 0 85px; border-bottom:1px solid #eee }
-.pluses__list { display:table; width:100%; }
+.pluses__list { display:table; width:100%; position: relative; z-index: 0;}
 .pluses__list--item { position:relative; display:table-cell; width:25%; vertical-align:top }
 .pluses__list--item:after { position:absolute; height:1px; border-bottom:1px dashed #ddd; width:100%; right:0; top:40px; content:'' }
 .pluses__list--item .item__pic { background:#fff; z-index:99; position:relative; padding:12px 0 0; display:table; margin:0 auto; border:2px solid #0084ff; width:80px; height:80px; border-radius:50%; text-align:center }
